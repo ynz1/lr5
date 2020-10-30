@@ -44,3 +44,22 @@ char** mGen(int n, int m)
 	check(str, m, n);
 	return str;
 }
+
+void check(char** str, int m, int n)
+{
+	char* temp;
+
+	printf("\nВведите строку: ");
+	temp = (char*)calloc(m + 2, sizeof(char));
+
+	fgets(temp, m + 2, stdin);
+
+	printf("\nНовая матрица:\n");
+	for (int i = 0; i <= n * n; i++)
+	{
+		if (strcmp(str[i], temp) != 0)
+		{
+			printf("%s", str[i]);
+		}
+	}
+}
