@@ -1,0 +1,2 @@
+D:\lrrs\lr5\Debug\lr5.exe
+D:\lrrs\lr5\Debug\lr5.pdb
